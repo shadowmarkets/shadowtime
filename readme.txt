@@ -14,7 +14,7 @@ Change ganache chain settings so that accounts start with A LOT of eth (under se
 
 
 
-HOW TO USE (from powershell commandline):
+HOW TO USE (from terminal):
 
 Start Ganache APPimage and click Quickstart Ethereum.
 
@@ -23,14 +23,14 @@ NOTE: everytime you interact with the chain, you can see what is happening on ga
 		However, note that some funds will disappear (around 0.1-0.2 ETH per transaction since they are gas fees)
 
 	
-1. python .\deployment.py 
+1. python3 deployment.py 
 	this script compiles the smart contract + it deployis it on-chain + it resets the various datasets that will be used.
 	you will be asked for:
 		public key
 		private key in hexdecimal form (means that you need to add 0x infornt of private key)
 	Click on the KEY icon next to a Ganache account to get public and private keys
 	
-2.Once the contract is deployed:   python .\gui.py
+2.Once the contract is deployed: python3 gui.py
 	
 	This start the gui.
 	
@@ -50,7 +50,7 @@ The program will create the option and make te required payment (leverage*cap) a
 		enter the option number (which you can see in the table) to buy it from the selected account. 
 		Again the program does the payments automatically
 	
-3. To resolve options: python .\resolveoptions.py
+3. To resolve options: python3 resolveoptions.py
 	you will need to input the close date for the options you want to resolve. Only options expiring on that date will resolve!
 	it can be found at https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=TSLA&apikey=0F1FJH5TJ28W5ZZH
 	input a public and private key to call function (only needed to pay gas fees)
