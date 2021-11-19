@@ -57,7 +57,7 @@ The program will create the option and make te required payment (leverage*cap) a
 	Done!
 
 NOTE: the contract can countinue to be used after resolution and it should keep working just as described above. 
-	If an new contract is deployed with .\deploymet.py the programm updates so that it automatically connects to the NEW contract 
+	If an new contract is deployed with deployment.py the programm updates so that it automatically connects to the NEW contract 
 
 	
 
