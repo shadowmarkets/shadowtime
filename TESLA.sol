@@ -36,7 +36,7 @@ contract TESLA {
         uint256 _priceWEI = _priceETH * 10**18;
         // if string is right create the option, otherwise do nothing.
 
-        uint256 block_exp = block.timestamp + (_exp_min + 2) * (1 minutes);
+        uint256 block_exp = block.timestamp + (_exp_min) * (1 minutes);
 
         //_ strike will be actual strikeprice *100 in order to avoid decimals!!
         options.push(
