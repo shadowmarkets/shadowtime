@@ -1,13 +1,14 @@
 DEPENDENCIES:
+NOTE: LINUX VERSION. this means that If on windows you need to get visual c++ aswell * change / to \ .
 install solidity programming language on ide (on vsCode its just an extension)
 python: (using python 3.10)
-visual studio C++
 Pandas: pip install pandas
-web3: pip install web3
+web3: pip install web3 
 solcx: pip install py-solc-x
 pysimplegui: pip install pysimplegui
 
-Start Ganache APPimage and click Quickstart Ethereum.
+Get ganache app image (for Linux) at https://www.trufflesuite.com/ganache 
+If on windows get and install ganache from same URL. 
 	
 Change ganache chain settings so that accounts start with A LOT of eth (under settings/accounts & keys, set something like 100000000000)
 
